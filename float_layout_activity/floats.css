@@ -6,9 +6,13 @@
   box-sizing: border-box;
   text-align: center;
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 body {
-  size: 1024px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -21,6 +25,7 @@ header {
 }
 
 section {
+  padding: 20px;
 
 }
 
@@ -29,7 +34,7 @@ section {
   float: left;
   width: 33.3%;
   background-color: #30948d;
-  padding: 25px;
+  
 }
 
 #middle {
@@ -38,7 +43,6 @@ section {
   float: left;
   width: 33.3%;
   background-color: #9E1212;
-  padding: 25px;
 
 }
 
@@ -48,36 +52,38 @@ section {
   float: left;
   width: 33.3%;
   background-color: #30948D;
-  padding: 25px;
+ 
 }
 
 
 
 #full {
   background: #394549;
-  padding: 70px;
+  padding-bottom: 30px;
   padding-top: 30px;
   margin-top: 100px;
+  color: whitesmoke;
+
 }
 
 #division {
   background: #6ea3da;
   color: whitesmoke;
   padding: 25px;
-  margin-top: 35px;
+  margin-top: 30px;
+ 
 }
 
 aside {
-  background: #a6b747;
-  border:whitesmoke;
   float: left;
-  margin: 10px;
+  width: 35%;
+  background: #a6b747;
+  height: 200px;
+  border:whitesmoke;
+  border-style: solid;
+  margin-left: 20px;
   color: whitesmoke;
-  padding-bottom: 110px;
-  padding-right: 70px;
-  padding-left: 70px;
   padding-top: 10px;
-  width: 30%;
 
 }
 
