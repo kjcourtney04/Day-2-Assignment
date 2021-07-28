@@ -1,0 +1,65 @@
+/**
+* Positioning Activity CSS file
+**/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background: yellow;
+    height: 150vh */
+}
+
+#box-1 {
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 50px;
+    font-size: 1.5em;
+    background: #eee;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.75em;
+    text-align: left;
+    margin-top: 0;
+    color: blue;
+    /* margin-left: 20px; */
+}
+
+#text_content {
+    max-width: 80vw;
+    padding: 0 10%;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+p {
+    text-align: left;
+}
+
+#box-2 {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 300px;
+    background-color: #999
+}
+
+#box-3 {
+    position: relative;
+    background-color: #eee;
+    padding: 10px 0 150px;
+}
